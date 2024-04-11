@@ -1,0 +1,50 @@
+/* LogoPage.css */
+
+.logo-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo-container {
+    margin-right: 20px;
+    flex: 4;
+}
+
+.logo-image {
+    margin-left: 180px; /* Adjust margin for positioning */
+    width: 500px;
+    height: auto;
+    border-radius: 12px; /* Add border radius for a rounded look */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    
+    margin-left: -80px;
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.admin-button,
+.student-button {
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 38px;
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.admin-button:hover,
+.student-button:hover {
+    background-color: #0056b3;
+}
